@@ -4,8 +4,7 @@ const guessGifts = (wishList, presents) => {
         wishList.forEach(w => {
         if (w.size === p.size && 
             w.clatters === p.clatters &&
-            w.weight === p.weight &&
-            guess.indexOf(w.name) === -1) {
+            w.weight === p.weight) {
                 guess.push(w.name);
             }
         });
